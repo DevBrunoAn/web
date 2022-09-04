@@ -245,6 +245,10 @@ header{
     margin-left: 11px;
 }
 
+.containerTextsOne i{
+    color: #24FF00;
+}
+
 .functions .retangle{
     display: flex;
     height: 200px;
@@ -267,6 +271,10 @@ header{
 
 .containerTextsTwo p span{
     margin-left: 11px;
+}
+
+.containerTextsTwo i{
+    color: #24FF00;
 }
 
 .containerResults{
