@@ -50,6 +50,14 @@ header{
     margin-top: 24px;
 }
 
+.imgInicial{
+    margin-top: 24px;
+}
+
+.imgInicial img{
+    width: 50vw;
+}
+
 .containerQuero{
     display: flex;
     justify-content: center;
@@ -461,6 +469,25 @@ header{
     }
 }
 
+@media only screen and (max-width: 600px){
+    .embedVideo{
+        display: flex;
+        justify-content: center;
+    
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+    
+    .embedVideo iframe{
+        position: absolute;
+        top: 0;
+        width: 97%;
+        height: 97%;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .containerGarantia p{
         width: 90vw;
@@ -479,22 +506,26 @@ header{
     }
 }
 
-@media only screen and (max-width: 600px){
-    .embedVideo{
+
+@media only screen and (max-width: 540px){
+    .containerVideosResults{
         display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
+        gap: 15px;
     }
-    
-    .embedVideo iframe{
-        position: absolute;
-        top: 0;
-        width: 97%;
-        height: 97%;
+
+    .containerVideosResults video{
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 1353px){
+    .imgInicial img{
+        width: 70vw;
     }
 }
 
@@ -528,20 +559,11 @@ header{
         width: 30vw;
         height: 50vh;
     }
-}
 
-@media only screen and (max-width: 540px){
-    .containerVideosResults{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-        gap: 15px;
-    }
-
-    .containerVideosResults video{
-        width: 50vw;
-        height: 50vh;
+    .imgInicial img{
+        width: 90vw;
     }
 }
+
+
+
