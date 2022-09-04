@@ -279,7 +279,21 @@ header{
     color: #FFFFFF;
 }
 
-.containerVideosResults{
+.containerFotosResults{
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.containerFotosResults img{
+    width: 20vw;
+}
+
+/* .containerVideosResults{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -292,7 +306,7 @@ header{
 .containerVideosResults video{
     width: 16vw;
     height: 60vh;
-}
+} */
 
 .containerUltimasVagasTwo{
     text-transform: uppercase;
@@ -451,6 +465,18 @@ header{
 @media only screen and (max-width: 768px){
     .containerGarantia p{
         width: 90vw;
+    }
+    .containerFotosResults{
+        margin-top: 60px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerFotosResults img{
+        width: 80vw;
     }
 }
 
