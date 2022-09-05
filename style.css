@@ -15,6 +15,11 @@ header{
     height: 22.7vh;
 }
 
+header img{
+    margin-top: 50px;
+    height: 10vh;
+}
+
 .container{
     display: flex;
     justify-content: center;
