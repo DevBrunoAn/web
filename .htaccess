@@ -1,0 +1,10 @@
+# Disable MutliViews
+Options -MultiViews
+
+RewriteEngine On
+
+RewriteRule ^downloadvip$ src/php/download.php [L]
+RewriteRule ^obrigado$ src/php/obrigado.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
